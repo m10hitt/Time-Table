@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 3px 8px 0;
+    font-family: "Times New Roman", serif;
+    color: #111;
+    background: white;
+}
+
+
+/* COLLEGE HEADER */
+.college-header {
+    width: 555px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.college-header img {
+    display: block;
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    margin: 0 auto 11px;
+}
+
+.college-header h3 {
+    margin: 0;
+    font-size: 8.5px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+.college-header p {
+    margin: 0;
+    font-size: 7px;
+    line-height: 9px;
+    font-weight: bold;
+}
+
+.college-header h4 {
+    margin: 0;
+    font-size: 7.5px;
+    line-height: 9px;
+    font-weight: bold;
+}
+
+
+.table-details {
+    width: 555px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto 4px;
+    font-size: 8px;
+    line-height: 9px;
+    font-weight: bold;
+}
+
+
+#student-table {
+    width: 555px;
+    max-width: 100%;
+    margin: 0 auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-family: "Times New Roman", serif;
+    font-size: 7px;
+    line-height: 1.12;
+}
+
+
+#student-table .day {
+    width: 63px;
+}
+
+#student-table .p1 {
+    width: 51px;
+}
+
+#student-table .p2 {
+    width: 52px;
+}
+
+#student-table .p3 {
+    width: 52px;
+}
+
+#student-table .p4 {
+    width: 68px;
+}
+
+#student-table .lunch-column {
+    width: 57px;
+}
+
+#student-table .p5 {
+    width: 63px;
+}
+
+#student-table .p6 {
+    width: 51px;
+}
+
+#student-table .p7 {
+    width: 50px;
+}
+
+#student-table .p8 {
+    width: 48px;
+}
+
+
+/* TABLE BORDERS AND ALIGNMENT */
+#student-table th,
+#student-table td {
+    border: 1px solid #aaa;
+    padding: 2px 1px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: normal;
+}
+
+#student-table thead th {
+    height: 32px;
+    padding: 1px;
+    font-size: 7.5px;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+#student-table small {
+    font-size: 7px;
+    font-weight: normal;
+}
+
+#student-table tbody th {
+    font-size: 7px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+
+#student-table .monday {
+    height: 48px;
+}
+
+#student-table .tuesday {
+    height: 36px;
+}
+
+#student-table .wednesday {
+    height: 48px;
+}
+
+#student-table .thursday-main {
+    height: 28px;
+}
+
+#student-table .practical-row {
+    height: 13px;
+}
+
+#student-table .friday-top {
+    height: 37px;
+}
+
+#student-table .friday-bottom {
+    height: 28px;
+}
+
+#student-table .saturday {
+    height: 31px;
+}
+
+
+#student-table .lunch-cell {
+    font-size: 8px;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
+#student-table .lunch-cell strong {
+    font-weight: bold;
+}
+
+
+#student-table .peach {
+    background-color: #f3c39e;
+}
+
+#student-table .green {
+    background-color: #c4dab2;
+}
+
+#student-table .yellow {
+    background-color: #fff000;
+}
+
+#student-table .blue {
+    background-color: #8fb9dc;
+}
+
+
+#student-table .practical {
+    padding: 0 3px;
+    font-size: 6px;
+    line-height: 7px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+
+#student-table .arrow-line {
+    display: block;
+    position: relative;
+    height: 0;
+    margin: 2px 3px 0;
+    border-top: 1px solid #377eaa;
+}
+
+#student-table .arrow-line::before,
+#student-table .arrow-line::after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    width: 0;
+    height: 0;
+    border-top: 2.5px solid transparent;
+    border-bottom: 2.5px solid transparent;
+}
+
+#student-table .arrow-line::before {
+    left: -1px;
+    border-right: 5px solid #377eaa;
+}
+
+#student-table .arrow-line::after {
+    right: -1px;
+    border-left: 5px solid #377eaa;
+}
+
+
+#student-table .sec {
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+#student-table .sec .arrow-line {
+    margin-top: 6px;
+    border-color: #387b44;
+}
+
+#student-table .sec .arrow-line::before {
+    border-right-color: #387b44;
+}
+
+#student-table .sec .arrow-line::after {
+    border-left-color: #387b44;
+}
